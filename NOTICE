@@ -1,0 +1,10 @@
+PAN 2
+Copyright 2026 Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+Developed by the Institute of Foundation Models (IFM) at MBZUAI
+
+This product includes the following third-party components, each licensed under the terms set out in THIRD_PARTY_LICENSES:
+- Qwen3Guard-Gen-4B, Copyright 2024 Alibaba Cloud, licensed under the Apache License, Version 2.0
+- Q16, Copyright (c) the Q16 authors (P. Schramowski, C. Tauchmann and K. Kersting, FAccT 2022), licensed under the MIT License
+- CLIP, Copyright (c) 2021 OpenAI, licensed under the MIT License
+
+The names of the third-party components and their owners are used solely to identify the origin of those components and do not imply any endorsement of PAN 2.

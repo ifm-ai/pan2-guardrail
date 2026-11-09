@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pan2-guardrail"
+dynamic = ["version"]
+description = "PAN2 guardrail: Qwen3Guard on the prompt and Q16 on the generated video."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_LICENSES"]
+requires-python = ">=3.10"
+dependencies = [
+    "clip @ git+https://github.com/openai/CLIP.git",
+    "huggingface_hub",
+    "numpy",
+    "Pillow",
+    "safetensors",
+    "torch>=2.2",
+    "torchvision",
+    "transformers>=4.56",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.dynamic]
+version = { attr = "pan2_guardrail.__version__" }
